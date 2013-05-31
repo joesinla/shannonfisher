@@ -1,15 +1,18 @@
 /*global define */
 define(['jquery'], function ($) {
     'use strict';
-
+   
     var container = document.querySelector('#container');
 	var pckry = new Packery( container, {
-	  // options
- 		gutter: 10,
- 		itemSelector: '.item'
+		gutter:10,
+		itemSelector:'.item'
 	});
 
-	
+	$('.item').click(function(){
+		$('#container').addClass('mymodal');
+	});
 
-    return pckry;
+
+
+	return pckry;
 });

@@ -11,6 +11,7 @@
         <meta name="viewport" content="width=device-width">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="scripts/vendor/galleria/themes/classic/galleria.classic.css">
         <!-- build:js scripts/vendor/modernizr.js -->
         <script src="bower_components/modernizr/modernizr.js"></script>
 
@@ -32,27 +33,62 @@
                 <a id="belts" class="item W1">
                    <!--  <h2>BELTS</h2> -->
                     <div class="content">
-                        <h4>BELTS</h4>
+                        <p>BELTS</p>
                     </div>
                 </a>
 
                 <a id="print" class="item w2">
                     <!-- <h2>PRINT</h2> -->
                     <div class="content">
-                        <h4>hey</h4>
+                        <p>PRINT</p>
                     </div>
                 </a>
-                <div id="handbags" class="item w3"><!-- <h2>HANDBAGS</h2> --></div>
-                <div id="hardware" class="item w3"><!-- <h2>HARDWARE</h2> --></div>
-                <div id="hats" class="item w4"><!-- <h2>HATS</h2> --></div>
-                <div id="scarves" class="item w2"><!-- <h2>SCARVES</h2> --></div>
-                <div id="knitwear" class="item w5"><!-- <h2>KNITWEAR</h2> --></div>
-                <div id="apparel" class="item w6"><!-- <h2>APPAREL</h2> --></div>
-                </div>
-            
+                <a id="handbags" class="item w3"><!-- <h2>HANDBAGS</h2> -->
+                    <div class="content">
+                        <p>HANDBAGS</p>
+                    </div>
+                </a>
+                <a id="hardware" class="item w3"><!-- <h2>HARDWARE</h2> -->
+                    <div class="content">
+                        <p>HARDWARE</p>
+                    </div>
+                </a>
+                <a id="hats" class="item w4"><!-- <h2>HATS</h2> -->
+                    <div class="content">
+                        <p>HATS</p>
+                    </div>
+                </a>
+                <a id="scarves" class="item w2"><!-- <h2>SCARVES</h2> -->
+                    <div class="content">
+                        <p>SCARVES</p>
+                    </div>
+                </a>
+                <a id="knitwear" class="item w5"><!-- <h2>KNITWEAR</h2> -->
+                    <div class="content">
+                        <p>KNITWEAR</p>
+                    </div>
+                </a>
+                <a id="apparel" class="item w6"><!-- <h2>APPAREL</h2> -->
+                    <div class="content">
+                        <p>APPAREL</p>
+                    </div>
+                </a>
     </div>   
+
+    <!-- Galleria -->
+<!-- Button to trigger modal -->
+ 
+<!-- Modal -->
+<div id="myModal" class="modal hide fade" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div id="galleria">
+        <img src="/images/hats.jpg">
+        <img src="/images/scarves.jpg">
+    </div>
+  </div>
+</div>
+
             
-                    <footer><p> Social Goes Here</p></footer>
+<footer><p> Social Goes Here</p></footer>
             
         </div><!--main wrapper -->
 
@@ -70,8 +106,7 @@
         <script src="bower_components/packery/packery.js"></script>
         <!-- build:js scripts/main.js -->
         <script data-main="scripts/main" src="bower_components/requirejs/require.js"></script>
-        
-        
+    
         <!-- endbuild -->
 
 </body>
